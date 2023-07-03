@@ -12,3 +12,14 @@ npm init -y
 npm i nodemon express
 ```
 
+## Conferir o _package.json_ (Colocar linha de código em "scripts")
+
+```js
+"start": "nodemon server.js", 
+```
+
+## Configurar o _package_para que nosso servidor execute com:
+
+```js
+npm start
+```
